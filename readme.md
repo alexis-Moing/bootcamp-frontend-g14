@@ -4,3 +4,4 @@
 * git add index.htmlgit push -u origin main
 * git rama -M principal git commit -m "mi primera pagina web"
 *  git add -A
+* git checkout -b <nombre-de-la-rama>
