@@ -1,0 +1,45 @@
+.proyects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img4 img5 img6";
+
+    justify-items: center;
+    margin: 10px 30px;
+    /* border: 2px solid goldenrod; */
+    column-gap: 2rem;
+    row-gap: 1rem;
+    padding: 0 6rem 6rem 6rem;
+}
+
+.proyect1 {
+    grid-area: img1;
+}
+
+.proyect2 {
+    grid-area: img2;
+    height: 510px;
+}
+
+.proyect3 {
+    grid-area: img3;
+}
+
+.proyect4 {
+    grid-area: img4;
+}
+
+.proyect5 {
+    grid-area: img5;
+}
+
+.proyect6 {
+    grid-area: img6;
+}
+
+.proyectimg {
+    border-radius: 4px;
+}
