@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    /* border: 2px solid red; */
+}
+
+.logofinal {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: var(--primary-theme-dark-yellow);
+}
+
+.piedepagina {
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-size: 14px;
+}

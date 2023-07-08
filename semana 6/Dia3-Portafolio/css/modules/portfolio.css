@@ -1,0 +1,42 @@
+.portfolio {
+    margin-top: 10rem;
+    margin-bottom: 1.5rem;
+    /* border: 2px solid wheat; */
+}
+
+.portfolio_sec {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-weight: 600;
+    background-color: var(--primary-theme-dark-dark3);
+    color: var(--primary-theme-dark-yellow);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    width: max-content;
+    margin: auto;
+}
+
+.portfolio_title {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-primary);
+    font-size: 38px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.portfolio_tipos {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-primary);
+    gap: 5rem;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.todos , .htmlcss , .javascriptt , .challenges {
+    border-bottom: 3px solid white;
+}

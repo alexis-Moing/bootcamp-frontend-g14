@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font-size);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-regular);
+    
+}
+
+.wrapper {
+    width: min(100% - 1rem, 1440px);
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    
+}
+
+.logo {
+    color: var(--primary-theme-dark-yellow);
+}
+
+.header_navigation , .header_redes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header_navigation {
+    padding: inherit;
+    gap: 2.5rem;
+}
+
+.header_redes {
+    padding: inherit;
+    gap: 1rem;
+}
