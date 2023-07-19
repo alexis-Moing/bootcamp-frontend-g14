@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tektur&display=swap');
+
+
+:root {
+    --shadow-color: 271deg 73% 32%;
+    --shadow-elevation-low:
+      1px 0px 1.2px hsl(var(--shadow-color) / 0.24),
+      1.7px -0.1px 2.1px -0.9px hsl(var(--shadow-color) / 0.29),
+      3.8px -0.1px 4.6px -1.9px hsl(var(--shadow-color) / 0.34);
+    --shadow-elevation-medium:
+      1px 0px 1.2px hsl(var(--shadow-color) / 0.25),
+      3.6px -0.1px 4.4px -0.6px hsl(var(--shadow-color) / 0.29),
+      8.3px -0.3px 10.1px -1.3px hsl(var(--shadow-color) / 0.33),
+      19.2px -0.6px 23.3px -1.9px hsl(var(--shadow-color) / 0.37);
+    --shadow-elevation-high:
+      1px 0px 1.2px hsl(var(--shadow-color) / 0.23),
+      6.4px -0.2px 7.8px -0.3px hsl(var(--shadow-color) / 0.25),
+      11.8px -0.4px 14.3px -0.5px hsl(var(--shadow-color) / 0.27),
+      18.5px -0.6px 22.5px -0.8px hsl(var(--shadow-color) / 0.29),
+      28.3px -0.9px 34.4px -1.1px hsl(var(--shadow-color) / 0.31),
+      42.8px -1.3px 52px -1.4px hsl(var(--shadow-color) / 0.33),
+      63.5px -1.9px 77.2px -1.6px hsl(var(--shadow-color) / 0.34),
+      92px -2.8px 111.8px -1.9px hsl(var(--shadow-color) / 0.36);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(220.55deg, #A531DC 0%, #4300B1 100%) no-repeat bottom;
+    background-size: contain;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10rem;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    gap: 1rem;
+    box-shadow: var(--shadow-elevation-high);
+}
+
+.h1 {
+    font-size: 30px;
+    font-family: 'Tektur',sans-serif;
+    color: hsl(271, 76%, 53%);
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+}
+
+#opciones {
+    line-height: 2rem;
+    
+}
+
+.boton1 {
+    color: white;
+    background-color: blueviolet;
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 12px 80px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    box-shadow: var(--shadow-elevation-medium);
+    
+}
+
+.boton2 {
+    color: white;
+    background-color: blueviolet;
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 12px 80px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    box-shadow: var(--shadow-elevation-medium);
+}
+
+
