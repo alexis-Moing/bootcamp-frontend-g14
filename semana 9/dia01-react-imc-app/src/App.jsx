@@ -1,33 +1,48 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [peso, setPeso] = useState(180)
+  const [altura, setAltura] = useState(300)
+  
+  const handleChangePeso = (event) => {
+    const value = event.target.value
+
+    setPeso(value)
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <section className="w-96 mx-auto my-5 rounded-md bg-sky-500">
+
+        <h1 className="text-3xl font-bold underline text-center text-white p-5">
+          IMC Calculator
+        </h1>
+
+        <div className="bg-sky-200 p-5">
+
+          <p className="font-bold">Peso: {peso} kg</p>
+          <input 
+            type="range" 
+            className="w-full"
+            min="50"
+            max="200"
+            onChange={handleChangePeso}
+          />
+
+          <p className="font-bold" >Altura: 100cm</p>
+          <input 
+            type="range" 
+            className="w-full"
+            min="50"
+            max="350"
+          />
+
+          <p className="text-2xl font-bold bg-orange-400 text-center p-5 mt-5">Tu IMC es 99</p>
+        </div>
+
+
+      </section>
+
     </>
   )
 }
