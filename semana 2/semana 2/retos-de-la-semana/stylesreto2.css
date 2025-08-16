@@ -79,4 +79,5 @@ main {
     font-family: 'Roboto';
     margin-top: 15px;
     justify-content: center;
+    cursor: pointer;
 }

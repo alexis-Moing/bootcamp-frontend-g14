@@ -22,7 +22,7 @@
             </label>
             <label for="sololec">
                 input (solo lectura)
-                <input type="text" placeholder="input solo lectura" readonly value="solo lectura" id="sololec">
+                <input type="text" placeholder="solo lectura" readonly value="solo lectura" id="sololec">
             </label>
             <label for="number">
                 input tipo number
@@ -38,11 +38,11 @@
             </label>
             <label>
                 input tipo tel
-                <input type="tel" placeholder="(+51) 999999999">
+                <input type="tel" placeholder="(+51) 999999999" maxlength="11">
             </label>
             <label>
                 Input tipo Password
-                <input type="password" placeholder="password">
+                <input type="password" placeholder="password" minlength="8">
             </label>
             <label>
                 Input tipo color
@@ -104,10 +104,7 @@
             <h2>checkboxes</h2>
 
             <h3>lenguaje de preferencia</h3>
-            <label>
-                <input type="checkbox" name="english" value="en">
-                Ingles
-            </label>
+            <label><input type="checkbox" name="english" value="en">Ingles</label>
             <label><input type="checkbox" name="español" value="es">Español</label>
             <label><input type="checkbox" name="Frances" value="fr">Frances</label>
 

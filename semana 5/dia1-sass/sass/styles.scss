@@ -1,8 +1,11 @@
-@import 'card';
-@import 'variables';
-
-body {
-    background-color: $primary-color;
-    text-align: center;
+@mixin custom-border {
+    border: 5px solid blue
 }
 
+@import 'variables';
+@import 'card';
+
+body {
+    background-color: $secundary-color;
+    text-align: center;
+}

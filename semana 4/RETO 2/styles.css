@@ -326,7 +326,8 @@ main {
 
 .access_email {
     padding: 12px 300px 12px 12px;
-    border: 0.01px solid;
+    border: 0.01px none;
+    box-shadow: 4px 5px 5px -3px var(--primary-very-dark-blue);
     border-radius: 3px;
 }
 
@@ -337,6 +338,7 @@ main {
     border: none;
     background-color: var(--accent-Bright-Blue);
     color: white;
+    cursor: pointer;
 }
 
 

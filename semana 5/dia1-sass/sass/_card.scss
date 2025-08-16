@@ -1,16 +1,15 @@
-$card-bg: white;
-$card-border-color: #454545;
-$card-border-radius: 4px;
 
 .card {
     background-color: $card-bg;
-    border: 1px solid $card-border-color;
+    // border: 1px solid $card-border-color;
     border-radius: $card-border-radius;
-
+    @include custom-border;
+    
 
   &--header {
     padding: 1rem 1.5rem;
     border-bottom: 1px solid $card-border-color;
+    
   }
 
   &--body {

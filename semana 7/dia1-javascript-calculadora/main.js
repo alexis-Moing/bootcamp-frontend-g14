@@ -35,7 +35,12 @@ buttons.forEach(function(button) {
                 numeroActual = Number(operando) * Number(numeroActual)
             }
         } else {
-            numeroActual = numeroActual + Number(buttonText)
+            // numeroActual = numeroActual + Number(buttonText)
+            if (numeroActual === '0') {
+                numeroActual = buttonText;
+              } else {
+                numeroActual += buttonText;
+              }
 
         }
         inputDisplay.value = numeroActual
