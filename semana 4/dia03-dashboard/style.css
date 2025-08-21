@@ -36,6 +36,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px;
+    border: 2px solid red;
   }
   
   .header__button-menu,
@@ -50,13 +51,15 @@
   .sidebar {
     background-color: var(--bg-2);
   
-    grid-area: side; 
+    grid-area: side;
+    border: 2px solid blue; 
   }
 
   .settings {
     background-color: var(--bg-2);
 
     grid-area: settings;
+    border: 2px solid black;
   }
   
   body:has(.sidebar--open) {
@@ -152,7 +155,10 @@
 .op {
   background-color: var(--bg-4);
   border-radius: 10px;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .op:nth-child(1) {
