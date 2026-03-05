@@ -18,13 +18,13 @@ main {
 }
 
 .photo {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     width: 300px;
     background-image: url(./images/image-product-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 1px 1px 3px #ccc;
-    /* border-radius: 7px 0 0 7px; */
+    border-radius: 7px 0 0 7px;
 }
 
 .contenido {
@@ -59,6 +59,7 @@ main {
     color:hsl(228, 12%, 48%); 
     font-weight: 500;
     line-height: 22px;
+
 }
 
 .contenido div {
