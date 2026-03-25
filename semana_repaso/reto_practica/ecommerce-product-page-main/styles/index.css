@@ -330,3 +330,17 @@ li {
         margin-right: 5rem;
     }
 }
+
+.quantity-cart {
+    font-family: var(--font-primary);
+    display: flex;
+    position: absolute;
+    top: 4px;
+    right: 5rem;
+    background-color: var(--primary-orange);
+    padding: 2.5px 8px;
+    border-radius: 8px;
+    color: var(--neutral-white);
+    font-size: 10px;
+    font-weight: var(--font-weight-bold);
+}
