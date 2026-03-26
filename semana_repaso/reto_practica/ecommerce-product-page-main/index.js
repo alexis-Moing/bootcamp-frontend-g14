@@ -5,6 +5,8 @@ const displayValue = document.getElementById("quantity-product");
 
 const displayTotalCart = document.getElementById("quantity-cart");
 
+const displayCart = document.getElementById("cart-content");
+
 
 
 document.getElementById("button-minus").addEventListener("click", () => {
@@ -34,3 +36,7 @@ document.getElementById("add-to-cart").addEventListener("click", () => {
     displayTotalCart.textContent = totalQuantityCart;
 } );
 
+document.getElementById("cart").addEventListener("click", () => {
+    console.log('has hecho click en el carrito');
+    displayCart.classList.toggle("is-open");
+})
